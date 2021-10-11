@@ -10,6 +10,13 @@ const b = {
 	}
 };
 
-for (let key in b) {
-	console.log(`свойство ${key} имеет значение ${b[key]}`);
-}
+console.log(Object.keys(b).length);
+//for (let key in b) {
+//	if (typeof (b[key]) === 'object') {
+//		for (let i in b[key]) {
+//			console.log(`свойство ${i} имеет значение ${b[key][i]}`);
+//		}
+//	} else {
+//		console.log(`свойство ${key} имеет значение ${b[key]}`);
+//	}	
+//}
